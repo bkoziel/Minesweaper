@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="pl.sanders.MenuUI">
+  <grid id="27dc6" binding="panelMenu" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="10" vgap="5">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="678"/>
+    </constraints>
+    <properties>
+      <background color="-14210469"/>
+      <foreground color="-1"/>
+    </properties>
+    <border type="bevel-lowered" title=""/>
+    <children>
+      <component id="95a4c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="36" style="1"/>
+          <foreground color="-2365441"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="MINESWEEPER"/>
+          <verticalTextPosition value="0"/>
+        </properties>
+      </component>
+      <component id="d10f3" class="javax.swing.JLabel" binding="logo">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <icon value="pl/sanders/saper.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <grid id="c49d4" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="5" vgap="5">
+        <margin top="5" left="5" bottom="5" right="5"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <maximum-size width="800" height="250"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-15790305"/>
+        </properties>
+        <border type="bevel-lowered" title-justification="2">
+          <color color="-4473925"/>
+        </border>
+        <children>
+          <component id="36f9a" class="javax.swing.JButton" binding="playButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="800" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font size="14"/>
+              <hideActionText value="false"/>
+              <text value="Play"/>
+            </properties>
+          </component>
+          <component id="d0bc6" class="javax.swing.JButton" binding="exitButton" default-binding="true">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="800" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font size="14"/>
+              <text value="Exit"/>
+            </properties>
+          </component>
+          <component id="11af0" class="javax.swing.JButton" binding="infoButton" default-binding="true">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="800" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font size="14"/>
+              <text value="Info"/>
+            </properties>
+          </component>
+          <component id="1cc52" class="javax.swing.JButton" binding="scoreButton">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="800" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <borderPainted value="true"/>
+              <font size="14"/>
+              <text value="Score"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
